@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+
+    // linting
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+
+    // Autoindent.  Still doesn't seem to be working?
+    "editor.autoIndent": true,
+
+    "python.linting.pep8Args": [
+        "--config", "./.pep8"
+    ],
+
+    // isort
+    "python.sortImports.path": "/usr/local/bin/isort",
+
+    // Testing
+    "python.unitTest.nosetestsEnabled": true,
+    "python.unitTest.nosetestPath": "/usr/local/bin/nosetests",
+    "python.unitTest.nosetestArgs": [
+    ],
+
+    "python.unitTest.unittestEnabled": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/.noseids": true
+    }
+}
