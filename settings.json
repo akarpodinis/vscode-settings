@@ -9,6 +9,7 @@
 
     // Autoindent.  Still doesn't seem to be working?
     "editor.autoIndent": true,
+    "editor.rulers": [100],
 
     "python.linting.pep8Args": [
         "--config", "./.pep8"
@@ -21,6 +22,17 @@
     "python.unitTest.nosetestsEnabled": true,
     "python.unitTest.nosetestPath": "/usr/local/bin/nosetests",
     "python.unitTest.nosetestArgs": [
+        "."
+        // "brands/tests",
+        // "content/tests",
+        // "people/tests",
+        // "rams_api/tests",
+        // "rams_id/tests",
+        // "recipes/tests",
+        // "rover_auth/tests",
+        // "rover_utils/tests",
+        // "video_playlists/tests"
+        // "-d"
     ],
 
     "python.unitTest.unittestEnabled": false,
