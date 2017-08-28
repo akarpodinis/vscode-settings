@@ -44,5 +44,9 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/.noseids": true
-    }
+    },
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-apple-darwin"
+    },
+    "rust.mode": "rls"
 }
